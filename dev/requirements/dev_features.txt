@@ -1,0 +1,42 @@
+# ==================
+# Development tools:
+# ==================
+
+# Codestyle:
+#   pep8 - show pep8 violations - https://pep8.readthedocs.io/en/release-1.7.x/;
+#   flake8 - show style violations - http://flake8.pycqa.org/en/latest/;
+pep8 
+flake8
+
+
+# Formatters:
+#   pyformat - wrapper over - https://github.com/myint/pyformat:
+#       autopep8 - modify code to pep8 - https://github.com/hhatto/autopep8;
+#       autoflake - remove style violations - https://github.com/myint/autoflake;
+#       unify - modify strings to one style - https://github.com/myint/unify;
+#       docformatter - provide docstrings to PEP 257 - https://github.com/myint/docformatter;
+pyformat
+
+
+# Debuger:
+#   pudb - urwid based console debugger (Unix only) - https://documen.tician.de/pudb/;
+#   ipdb - console debugger for ipython - https://github.com/gotcha/ipdb;
+pudb
+ipdb
+
+
+# Vulnerability searcher:
+#   bandit - tool to find common security issues - https://bandit.readthedocs.io/en/latest/;
+#   safety - checks dependencies for known security vulnerabilities - https://github.com/pyupio/safety;
+bandit
+safety
+
+
+# Python shell:
+#   ipython - toolkit to help using Python interactively - https://ipython.readthedocs.io/en/stable/;
+ipython
+
+
+# Documentation creators:
+#   sphinx - tool to makes beautiful documentation - https://www.sphinx-doc.org/en/master/;
+sphinx

@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pep8 = "*"
+flake8 = "*"
+pyformat = "*"
+pudb = "*"
+ipdb = "*"
+bandit = "*"
+safety = "*"
+ipython = "*"
+sphinx = "*"
+django-debug-toolbar = "*"
+httpie = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+dj-database-url = "*"
+python-decouple = "*"
+unipath = "*"
+bs4 = "*"
+fake-useragent = "*"
+requests = "*"
+selenium = "*"
+html5lib = "*"
+
+[requires]
+python_version = "3.8"
