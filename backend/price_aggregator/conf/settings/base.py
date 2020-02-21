@@ -208,3 +208,15 @@ STATIC_ROOT = BASE_DIR.child('content', 'static_cdn')
 MEDIA_URL = "/media/"
 
 MEDIA_ROOT = BASE_DIR.child('content', 'media_cdn')
+
+
+# Django REST framework
+# ------------------------------------------------------------------------------
+# http://www.django-rest-framework.org/
+
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+    ]
+}
+

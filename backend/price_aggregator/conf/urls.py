@@ -19,7 +19,8 @@ from django.conf import settings
 
 
 urlpatterns = [
-    re_path('^admin/', admin.site.urls),
+    re_path(r'^admin/', admin.site.urls),
+    re_path(r'^', include('apps.rest_api.urls'))
 ]
 
 if settings.DEBUG:
